@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-layout-sider-children .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
