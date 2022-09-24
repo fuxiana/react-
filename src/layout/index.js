@@ -18,6 +18,6 @@ function getItem(
 }
 
 export const MenuList=[
-  getItem('图表', '/chart', <PieChartOutlined />),
+  getItem('图表', '/addressMap', <PieChartOutlined />),
   getItem('登入', '/login', <DesktopOutlined />),
 ]

@@ -1,6 +1,6 @@
 import Index from "../pages/404";
 import Login from "../pages/login/login";
-import Chart from "../pages/chart";
+import AddressMap from "../pages/chart";
 
 export const routerList =[
   {
@@ -12,7 +12,7 @@ export const routerList =[
     element: <Index/>
   },
   {
-    path: '/chart',
-    element: <Chart/>
+    path: '/addressMap',
+    element: <AddressMap/>
   }
 ]
